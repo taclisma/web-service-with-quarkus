@@ -7,11 +7,19 @@
 #
 # Then, build the image with:
 #
+<<<<<<< HEAD
 # docker build -f src/main/docker/Dockerfile.native -t quarkus/user-service .
 #
 # Then run the container using:
 #
 # docker run -i --rm -p 8080:8080 quarkus/user-service
+=======
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/code-with-quarkus .
+#
+# Then run the container using:
+#
+# docker run -i --rm -p 8080:8080 quarkus/code-with-quarkus
+>>>>>>> 2ad076a89d26e04a93954c97df35f096f053e970
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.9
